@@ -6,9 +6,9 @@
 [![Total Downloads](https://poser.pugx.org/laravel-enso/comments/downloads)](https://packagist.org/packages/laravel-enso/comments)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/comments/version)](https://packagist.org/packages/laravel-enso/comments)
 
-Comments Manager for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Comments Manager for [Laravel Liberu](https://github.com/laravel-enso/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
 
 There is a front end implementation for this this api in the [accessories](https://github.com/enso-ui/accessories) package.
 
@@ -37,9 +37,9 @@ This package is released under the MIT license.
 [![Total Downloads](https://poser.pugx.org/laravel-enso/comments/downloads)](https://packagist.org/packages/laravel-enso/comments)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/comments/version)](https://packagist.org/packages/laravel-enso/comments)
 
-Comments Manager for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Comments Manager for [Laravel Liberu](https://github.com/laravel-enso/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
 
 There is a front end implementation for this this api in the [accessories](https://github.com/enso-ui/accessories) package.
 
