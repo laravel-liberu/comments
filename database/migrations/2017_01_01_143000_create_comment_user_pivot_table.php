@@ -9,13 +9,11 @@ return new class extends Migration
     public function up()
     {
         Schema::create('comment_user', function (Blueprint $table) {
-            $table->integer('comment_id')->unsigned()->index();
-            $table->foreign('comment_id')->references('id')->on('comments')
-                ->onDelete('cascade');
+            $table->foreignId('comment_id')->constrained()->name('comment_user_comment_id_foreign')
+            ->index()->onDelete('cascade');
 
-            $table->integer('user_id')->unsigned()->index();
-            $table->foreign('user_id')->references('id')->on('users')
-                ->onDelete('cascade');
+            $table->foreignId('user_id')->constrained()->name('comment_user_user_id_foreign')
+            ->index()->onDelete('cascade');
 
             $table->primary(['comment_id', 'user_id']);
         });
