@@ -27,7 +27,7 @@ trait Commentable
 
     private function attemptCommentableDeletion()
     {
-        $restricted = Config::get('enso.comments.onDelete') === 'restrict';
+        $restricted = Config::get('liberu.comments.onDelete') === 'restrict';
 
         if ($restricted && $this->comments()->exists()) {
             throw CommentConflict::delete();
@@ -36,7 +36,7 @@ trait Commentable
 
     private function cascadeCommentDeletion()
     {
-        if (Config::get('enso.comments.onDelete') === 'cascade') {
+        if (Config::get('liberu.comments.onDelete') === 'cascade') {
             $this->comments()->delete();
         }
     }

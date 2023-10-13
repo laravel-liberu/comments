@@ -38,6 +38,6 @@ class Comment
     private function isRecent(Model $comment)
     {
         return $comment->created_at->diffInSeconds(Carbon::now())
-            < config('enso.comments.editableTimeLimit');
+            < config('liberu.comments.editableTimeLimit');
     }
 }

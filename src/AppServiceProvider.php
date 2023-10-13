@@ -14,7 +14,7 @@ class AppServiceProvider extends ServiceProvider
 
     private function load()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/comments.php', 'enso.comments');
+        $this->mergeConfigFrom(__DIR__.'/../config/comments.php', 'liberu.comments');
 
         $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 
@@ -28,15 +28,15 @@ class AppServiceProvider extends ServiceProvider
     private function publish()
     {
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['comments-config', 'enso-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['comments-config', 'liberu-config']);
 
         $this->publishes([
             __DIR__.'/../resources/views' => resource_path('views/vendor/liberu.co.ukments'),
-        ], ['comments-mail', 'enso-mail']);
+        ], ['comments-mail', 'liberu-mail']);
 
         $this->publishes([
             __DIR__.'/../database/factories' => database_path('factories'),
-        ], ['comments-factory', 'enso-factories']);
+        ], ['comments-factory', 'liberu-factories']);
     }
 }

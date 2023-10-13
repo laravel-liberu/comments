@@ -6,15 +6,15 @@
 [![Total Downloads](https://poser.pugx.org/liberu.co.ukments/downloads)](https://packagist.org/packages/liberu.co.ukments)
 [![Latest Stable Version](https://poser.pugx.org/liberu.co.ukments/version)](https://packagist.org/packages/liberu.co.ukments)
 
-Comments Manager for [Laravel Liberu](https://github.com/laravel-enso/Liberu).
+Comments Manager for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package works exclusively within the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
-There is a front end implementation for this this api in the [accessories](https://github.com/enso-ui/accessories) package.
+There is a front end implementation for this this api in the [accessories](https://github.com/liberu-ui/accessories) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/comments/screenshots/bulma_018_thumb.png)](https://laravel-enso.github.io/comments/videos/bulma_demo_01.webm)
+[![Watch the demo](https://laravel-liberu.github.io/comments/screenshots/bulma_018_thumb.png)](https://laravel-liberu.github.io/comments/videos/bulma_demo_01.webm)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
@@ -37,15 +37,15 @@ This package is released under the MIT license.
 [![Total Downloads](https://poser.pugx.org/liberu.co.ukments/downloads)](https://packagist.org/packages/liberu.co.ukments)
 [![Latest Stable Version](https://poser.pugx.org/liberu.co.ukments/version)](https://packagist.org/packages/liberu.co.ukments)
 
-Comments Manager for [Laravel Liberu](https://github.com/laravel-enso/Liberu).
+Comments Manager for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package works exclusively within the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
-There is a front end implementation for this this api in the [accessories](https://github.com/enso-ui/accessories) package.
+There is a front end implementation for this this api in the [accessories](https://github.com/liberu-ui/accessories) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/comments/screenshots/bulma_018_thumb.png)](https://laravel-enso.github.io/comments/videos/bulma_demo_01.webm)
+[![Watch the demo](https://laravel-liberu.github.io/comments/screenshots/bulma_018_thumb.png)](https://laravel-liberu.github.io/comments/videos/bulma_demo_01.webm)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 

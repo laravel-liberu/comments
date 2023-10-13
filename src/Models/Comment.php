@@ -54,6 +54,6 @@ class Comment extends Model
 
     public function getLoggableMorph()
     {
-        return config('enso.comments.loggableMorph');
+        return config('liberu.comments.loggableMorph');
     }
 }

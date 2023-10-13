@@ -17,7 +17,7 @@ class Index extends Controller
             ->get();
 
         return Resource::collection($comments)->additional([
-            'humanReadableDates' => Config::get('enso.comments.humanReadableDates'),
+            'humanReadableDates' => Config::get('liberu.comments.humanReadableDates'),
         ]);
     }
 }
