@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Comments;
+namespace LaravelLiberu\Comments;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Comments\DynamicRelations\Comments;
-use LaravelEnso\Comments\DynamicRelations\CommentTags;
-use LaravelEnso\DynamicMethods\Services\Methods;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Comments\DynamicRelations\Comments;
+use LaravelLiberu\Comments\DynamicRelations\CommentTags;
+use LaravelLiberu\DynamicMethods\Services\Methods;
+use LaravelLiberu\Users\Models\User;
 
 class UserServiceProvider extends ServiceProvider
 {

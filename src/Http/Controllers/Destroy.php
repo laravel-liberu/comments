@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Comments\Http\Controllers;
+namespace LaravelLiberu\Comments\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Comments\Models\Comment;
+use LaravelLiberu\Comments\Models\Comment;
 
 class Destroy extends Controller
 {

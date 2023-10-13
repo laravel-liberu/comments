@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Comments\Http\Controllers;
+namespace LaravelLiberu\Comments\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Comments\Http\Requests\ValidateCommentFetch;
-use LaravelEnso\Comments\Http\Resources\Comment as Resource;
-use LaravelEnso\Comments\Models\Comment;
+use LaravelLiberu\Comments\Http\Requests\ValidateCommentFetch;
+use LaravelLiberu\Comments\Http\Resources\Comment as Resource;
+use LaravelLiberu\Comments\Models\Comment;
 
 class Index extends Controller
 {

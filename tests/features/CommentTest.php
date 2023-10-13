@@ -5,10 +5,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Comments\Models\Comment;
-use LaravelEnso\Comments\Notifications\CommentTagNotification;
-use LaravelEnso\Comments\Traits\Commentable;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Comments\Models\Comment;
+use LaravelLiberu\Comments\Notifications\CommentTagNotification;
+use LaravelLiberu\Comments\Traits\Commentable;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class CommentTest extends TestCase

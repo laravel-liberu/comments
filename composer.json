@@ -27,16 +27,16 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Comments\\": "src/",
-            "LaravelEnso\\Comments\\Database\\Factories\\": "database/factories/"
+            "LaravelLiberu\\Comments\\": "src/",
+            "LaravelLiberu\\Comments\\Database\\Factories\\": "database/factories/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Comments\\AppServiceProvider",
-                "LaravelEnso\\Comments\\AuthServiceProvider",
-                "LaravelEnso\\Comments\\UserServiceProvider"
+                "LaravelLiberu\\Comments\\AppServiceProvider",
+                "LaravelLiberu\\Comments\\AuthServiceProvider",
+                "LaravelLiberu\\Comments\\UserServiceProvider"
             ],
             "aliases": {}
         }

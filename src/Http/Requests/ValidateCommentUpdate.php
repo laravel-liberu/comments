@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Comments\Http\Requests;
+namespace LaravelLiberu\Comments\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

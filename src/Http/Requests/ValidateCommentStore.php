@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Comments\Http\Requests;
+namespace LaravelLiberu\Comments\Http\Requests;
 
-use LaravelEnso\Helpers\Traits\FiltersRequest;
+use LaravelLiberu\Helpers\Traits\FiltersRequest;
 
 class ValidateCommentStore extends ValidateCommentFetch
 {

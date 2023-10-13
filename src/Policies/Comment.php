@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Comments\Policies;
+namespace LaravelLiberu\Comments\Policies;
 
 use Carbon\Carbon;
 use Illuminate\Auth\Access\HandlesAuthorization;
-use LaravelEnso\Comments\Models\Comment as Model;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Comments\Models\Comment as Model;
+use LaravelLiberu\Users\Models\User;
 
 class Comment
 {

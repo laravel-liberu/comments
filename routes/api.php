@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Comments\Http\Controllers\Destroy;
-use LaravelEnso\Comments\Http\Controllers\Index;
-use LaravelEnso\Comments\Http\Controllers\Store;
-use LaravelEnso\Comments\Http\Controllers\Update;
-use LaravelEnso\Comments\Http\Controllers\Users;
+use LaravelLiberu\Comments\Http\Controllers\Destroy;
+use LaravelLiberu\Comments\Http\Controllers\Index;
+use LaravelLiberu\Comments\Http\Controllers\Store;
+use LaravelLiberu\Comments\Http\Controllers\Update;
+use LaravelLiberu\Comments\Http\Controllers\Users;
 
 Route::middleware(['api', 'auth', 'core'])
     ->prefix('api/core/comments')

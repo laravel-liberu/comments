@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Comments\Notifications;
+namespace LaravelLiberu\Comments\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -40,7 +40,7 @@ class CommentTagNotification extends Notification implements ShouldQueue
 
         return (new MailMessage())
             ->subject("[ {$app} ] {$this->subject()}")
-            ->markdown('laravel-enso/comments::emails.tagged', [
+            ->markdown('liberu.co.ukments::emails.tagged', [
                 'appellative' => $notifiable->person->appellative(),
                 'body' => $this->body,
                 'url' => url($this->path),

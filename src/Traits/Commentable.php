@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Comments\Traits;
+namespace LaravelLiberu\Comments\Traits;
 
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Comments\Exceptions\CommentConflict;
-use LaravelEnso\Comments\Models\Comment;
+use LaravelLiberu\Comments\Exceptions\CommentConflict;
+use LaravelLiberu\Comments\Models\Comment;
 
 trait Commentable
 {

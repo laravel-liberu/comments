@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Comments\Http\Resources;
+namespace LaravelLiberu\Comments\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use LaravelEnso\Users\Http\Resources\User;
+use LaravelLiberu\Users\Http\Resources\User;
 
 class Comment extends JsonResource
 {

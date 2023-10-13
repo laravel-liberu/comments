@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Comments\Http\Controllers;
+namespace LaravelLiberu\Comments\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Comments\Http\Requests\ValidateCommentStore;
-use LaravelEnso\Comments\Http\Resources;
-use LaravelEnso\Comments\Models\Comment;
+use LaravelLiberu\Comments\Http\Requests\ValidateCommentStore;
+use LaravelLiberu\Comments\Http\Resources;
+use LaravelLiberu\Comments\Models\Comment;
 
 class Store extends Controller
 {

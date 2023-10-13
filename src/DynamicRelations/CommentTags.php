@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Comments\DynamicRelations;
+namespace LaravelLiberu\Comments\DynamicRelations;
 
 use Closure;
-use LaravelEnso\Comments\Models\Comment;
-use LaravelEnso\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Comments\Models\Comment;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
 
 class CommentTags implements Method
 {

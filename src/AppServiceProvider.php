@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Comments;
+namespace LaravelLiberu\Comments;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,7 +20,7 @@ class AppServiceProvider extends ServiceProvider
 
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-enso/comments');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'liberu.co.ukments');
 
         return $this;
     }
@@ -32,7 +32,7 @@ class AppServiceProvider extends ServiceProvider
         ], ['comments-config', 'enso-config']);
 
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-enso/comments'),
+            __DIR__.'/../resources/views' => resource_path('views/vendor/liberu.co.ukments'),
         ], ['comments-mail', 'enso-mail']);
 
         $this->publishes([

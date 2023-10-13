@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Comments\Database\Factories;
+namespace LaravelLiberu\Comments\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Comments\Models\Comment;
+use LaravelLiberu\Comments\Models\Comment;
 
 class CommentFactory extends Factory
 {
